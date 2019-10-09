@@ -31,7 +31,7 @@ dellos_lldp:
       advertise:
         med:
           enable: true
-          tlv : inventory
+          tlv: inventory
           tlv_state: present
           application:
             - network_policy_id: 4
